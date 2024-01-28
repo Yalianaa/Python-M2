@@ -3,8 +3,6 @@ yalianachichaco@Yalianas-MacBook-Pro ~ % python --version
 zsh: command not found: python
 yalianachichaco@Yalianas-MacBook-Pro ~ % python3 --version
 Python 3.12.1
-yalianachichaco@Yalianas-MacBook-Pro ~ % python -m pip install --upgrade pip
-zsh: command not found: python
 yalianachichaco@Yalianas-MacBook-Pro ~ % python3 -m pip install --upgrade pip
 Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (23.3.2)
 yalianachichaco@Yalianas-MacBook-Pro ~ % brew update                         
@@ -14,16 +12,8 @@ Warning: pyenv 2.3.35 already installed
 yalianachichaco@Yalianas-MacBook-Pro ~ % pyenv install 3.12.1
 pyenv: /Users/yalianachichaco/.pyenv/versions/3.12.1 already exists
 continue with installation? (y/N) N
-yalianachichaco@Yalianas-MacBook-Pro ~ % python -m pip install --upgrade pip
-zsh: command not found: python
 yalianachichaco@Yalianas-MacBook-Pro ~ % python3 -m pip install --upgrade pip
 Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (23.3.2)
-yalianachichaco@Yalianas-MacBook-Pro ~ % pip install jupyterlab
-zsh: command not found: pip
-yalianachichaco@Yalianas-MacBook-Pro ~ % pip install jupyterlab
-zsh: command not found: pip
-yalianachichaco@Yalianas-MacBook-Pro ~ % jupyter lab
-zsh: command not found: jupyter
 yalianachichaco@Yalianas-MacBook-Pro ~ % pip3 install jupyterlab
 Collecting jupyterlab
   Using cached jupyterlab-4.0.11-py3-none-any.whl.metadata (15 kB)
