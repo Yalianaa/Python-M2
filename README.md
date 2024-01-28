@@ -28,4 +28,5 @@ pyenv local 3.12.1
 python3 --version 
 
 #3 Ejecuted Python 3.12.1
+
 Phyton3
