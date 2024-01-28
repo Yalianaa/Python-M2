@@ -1,4 +1,3 @@
-Last login: Sun Jan 28 11:31:07 on ttys000
 yalianachichaco@Yalianas-MacBook-Pro ~ % python --version
 zsh: command not found: python
 yalianachichaco@Yalianas-MacBook-Pro ~ % python3 --version
