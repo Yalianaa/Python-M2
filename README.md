@@ -7,6 +7,7 @@ This make a bug in the recognizion of the newest version of python (3.12.1) inst
 So, I solve that problem following this steps:
 
 #1 Download Homebrew
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew install pyenv
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/yalianachichaco/.zprofile  
@@ -19,6 +20,7 @@ eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 
 #2 Install Python 'pyenv' in zsch with $brew
+
 pyenv install --list  
 pyenv install 3.12.1  
 pyenv global 3.12.1  
